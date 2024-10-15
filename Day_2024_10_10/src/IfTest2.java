@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class IfTest2 {
 
-	public static void main(String[] args) {
+	public static void mains(String[] args) {
 		// 점수를 입력 받아서 분기 처리
 		Scanner sc = new Scanner(System.in);
 		System.out.print("점수 : ");
@@ -15,7 +15,7 @@ public class IfTest2 {
 		} else {
 			pass = false;
 		}
-		
+
 		System.out.println("프로그램 종료");
 
 	}

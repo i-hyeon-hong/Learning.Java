@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class SwitchTest2 {
 
 	public static void main(String[] args) {
-		//랭킹을 입력받아서 메달 수여
+		// 랭킹을 입력받아서 메달 수여
 		Scanner sc = new Scanner(System.in);
 		System.out.print("랭킹: ");
 		int rank = sc.nextInt();
-		
-		//1:금메달, 2:은메달, 3:동메달, 그외:참가상
-		switch(rank) {
+
+		// 1:금메달, 2:은메달, 3:동메달, 그외:참가상
+		switch (rank) {
 		case 1:
 			System.out.println("금메달");
 			break;
@@ -22,8 +22,7 @@ public class SwitchTest2 {
 		default:
 			System.out.println("참가상");
 		}
-		
-		
+
 //		if(rank==1) {
 //			System.out.println("금메달");
 //		}
